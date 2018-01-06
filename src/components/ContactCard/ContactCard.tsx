@@ -19,6 +19,8 @@ export class ContactCard extends React.Component<IContactCardProps, {}> {
         phone: "555 123 4567",
       };
 
+      console.log(this.props.accountname);
+
       return (
         <div className={styles.contactcard}>
           <div className={styles.photo_wrapper}>
