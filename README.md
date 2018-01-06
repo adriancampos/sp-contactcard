@@ -1,15 +1,9 @@
-# Generic React app for modern web development
+# SP - ContactCard
 
 ## Summary
 Simple react app based on [web-library-build](https://github.com/Microsoft/web-library-build).
 
 ![UI rendering of the sample](./assets/screenshot.png)
-
-Targeted to demonstrates on how to use web stack and modern tooling without SharePoint Framework (SPFx). Can be used for example example in on-premises deployments where SharePoint Framework (SPFx) is not available.
-
-SharePoint Framework is planned to be released to SharePoint 2016 during calendar year of 2017. SPFx is NOT planned to be released to SharePoint 2013 or SharePoint 2010.
-
-This sample demonstrates how to start adapting modern web stack development practice in older SharePoint versions. This way you can start learning and using modern development practices and when you're moving to SharePoint 2016 or SharePoint Online, you'll get further benefits from th SharePoint Framework.
 
 ## Applies to
 
@@ -22,22 +16,6 @@ This sample demonstrates how to start adapting modern web stack development prac
 You will need to have Node.js installed on your development box. 
 You can for example follow the SPFx d
 
-## Solution
-
-Solution|Author(s)
---------|---------
-react-generic-app | Chakkaradeep Chandran (Microsoft), Vesa Juvonen (Microsoft), Waldek Mastykarz (Rencore)
-
-## Version history
-
-Version|Date|Comments
--------|----|--------
-1.0|December 23, 2016|Initial release
-
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
-
----
 
 ## How to use in development?
 
