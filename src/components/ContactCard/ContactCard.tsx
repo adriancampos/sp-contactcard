@@ -1,10 +1,10 @@
 import * as React from 'react';
-import styles from './HelloWorld.module.scss';
-import './HelloWorld.module.css';
+import styles from './ContactCard.module.scss';
+import './ContactCard.module.css';
 import { css } from 'office-ui-fabric-react';
-import IHelloWorldProps from './IHelloWorldProps';
+import IContactCardProps from './IContactCardProps';
 
-export class Hello extends React.Component<IHelloWorldProps, {}> {
+export class ContactCard extends React.Component<IContactCardProps, {}> {
     public render(): JSX.Element {
 
       //TODO Get item here async. Render async instead? Does it matter? Since the entire thing is being loaded async? Should I show blank/blurred card until loaded?

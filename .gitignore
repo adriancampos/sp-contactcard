@@ -31,3 +31,6 @@ node_modules
 dist/
 lib/
 temp/
+
+# built files
+src/components/ContactCard/ContactCard\.module\.scss\.ts
