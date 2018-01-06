@@ -1,0 +1,26 @@
+.contactcard {
+   .container {
+       max-width: 700px;
+       margin: 0px auto;
+       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+   .photo_wrapper {
+       margin-top: 10px;
+       text-align: center;
+  }
+   .photo {
+       display: inline-block;
+       border-radius: 50%;
+       width: 100px;
+       height: 100px;
+       transition: 0.3s;
+  }
+   .photo:hover {
+       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+       transform: scale(1.05);
+  }
+   .details_container {
+       padding: 2px 16px;
+       text-align: center;
+  }
+}
