@@ -1,5 +1,5 @@
 interface IContactCardProps {
-    accountname: string;
+    accountid: string;
 }
 
 export default IContactCardProps;
