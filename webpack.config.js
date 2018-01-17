@@ -35,7 +35,8 @@ let webpackConfig = {
   module: {
     loaders: [
       { test: /\.css$/, loader: "style-loader" },
-      { test: /\.css$/, loader: "css-loader" }
+      { test: /\.css$/, loader: "css-loader" },
+      { test: /\.(png|jpg|svg)$/, loader: "url?limit=25000" }
     ]
   },
 

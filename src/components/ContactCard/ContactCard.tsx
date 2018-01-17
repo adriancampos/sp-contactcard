@@ -4,6 +4,11 @@ import './ContactCard.module.css';
 import { css } from 'office-ui-fabric-react';
 import IContactCardProps from './IContactCardProps';
 
+
+var icon_people_blur = require('./images/icon-people-square-blur.svg');
+var invalid_picture = require('./images/icon-people-square.svg');//"./images/icon-people-square.svg";
+var invalid_picture_desc = "No photo";
+
 export class ContactCard extends React.Component<IContactCardProps, {id: string, picture: string, picture_desc: string, title: string, jobTitle: string, department: string, eMail: string, phone: string}> {
 
     constructor(props) {
