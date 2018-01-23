@@ -85,10 +85,10 @@ export class ContactCard extends React.Component<IContactCardProps, {picture: st
               picture: icon_people_blur,
               picture_desc: invalid_picture_desc,
               title: "Invalid",
-              jobTitle: "",
-              department: "",
-              eMail: "",
-              phone: ""
+              jobTitle: "\xa0",
+              department: "\xa0",
+              eMail: "\xa0",
+              phone: "\xa0"
             });
         }
     };
@@ -106,6 +106,6 @@ function getElementValueSafe(responseXML, tagname) {
   if (element.hasChildNodes()) {
     return element.firstChild.nodeValue;
   } else {
-    return "";
+    return "\xa0"; //Non-breaking space so that cards remain the same height
   }
 }
