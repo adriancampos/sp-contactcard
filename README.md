@@ -25,13 +25,13 @@ You can for example follow the SPFx d
 
 Add following to script editor web part in SharePoint 2016 or 2013. 
 
-```javascript
+```html
 
 <!-- Style -->
 <link rel="stylesheet" href="https://appsforoffice.microsoft.com/fabric/fabric-core/4.0.0/fabric.min.css">
  
-<!-- Change the value of data-accountid to match account id to be shown -->
-<div class="webpart-contactcard" data-accountid="0"></div>
+<!-- Change the value of data-accountname to match sharepoint account to be shown -->
+<div class="webpart-contactcard" data-accountname="domain\user"></div>
  
 <!-- Dependencies -->
 <script src="http://localhost:4321/node_modules/react/dist/react.js"></script>
@@ -41,6 +41,7 @@ Add following to script editor web part in SharePoint 2016 or 2013.
 <script src="http://localhost:4321/dist/contactcard.js"></script>
 
 ```
+> Alternatively, `data-accountid="0"` can be used in place of `data-accountname="domain\user"`. Be sure to replace the `0` with the id of the account to be shown. If both are present, `data-accountname` takes precedence.
 
 
 If used in context of SharePoint 2010, you'll need to use content editor web part and reference the needed script from a txt file, so that script tags are rendering properly.
