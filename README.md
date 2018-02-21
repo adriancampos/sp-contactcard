@@ -17,7 +17,7 @@ You will need to have Node.js installed on your development box.
 You can for example follow the SPFx d
 
 
-## How to use in development?
+## How to use in development
 
 
 - `npm install`
@@ -48,7 +48,7 @@ If used in context of SharePoint 2010, you'll need to use content editor web par
 
 > Notice. When you have gulp serve running, you can perform edits for example with Visual Studio Code to the files and you'll see the changes after page refresh in the context of SharePoint.
 
-## How to deploy to production?
+## How to deploy to production
 * Deploy react.js, react-dom.js, and contactcard.js to some centralized location, for example SharePoint library accessed for everyone. 
 * Update references in the script editor part to point to this location.
 

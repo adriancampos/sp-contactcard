@@ -45,7 +45,7 @@ export class ContactCard extends React.Component<IContactCardProps, {picture: st
   
   componentDidMount() {
     // Set up url to call
-    const root = "http://intranetnew";
+    const root = ""; // TODO: Set to "http://intranetnew" when in dev environment?
     if (this.props.accountname != null) {
       const api = "/_api/web/lists/getbytitle('User%20Information%20List')/items?$select=Title,Picture,EMail,MobilePhone,Department,JobTitle&$filter=Name eq ";
       const usernameprefix = "i%3A0%23.w%7C"; // Encoded 'i:0#.w|'
